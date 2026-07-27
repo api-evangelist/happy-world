@@ -1,7 +1,29 @@
 aid: happy-world
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/happy-world.png
 name: Happy World
-description: Happy World is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Happy World operates SPICE (getspice.com), a premium lifestyle dining and
+  rewards mobile application based in Riyadh, Saudi Arabia. SPICE lets diners
+  discover curated partner restaurants across the Kingdom, reserve or walk in,
+  pay their bill in-app by entering the bill number, and earn instant cashback
+  rewards (advertised as up to 20% cashback with no caps) on every visit. The
+  product emphasizes intelligent personalization and a hand-picked selection of
+  the best restaurants, food, and dining experiences. Surfaced as a portfolio
+  company of 500 Global and added to the API Evangelist network. The company is
+  a consumer mobile-app business with no public API, developer portal, SDKs, or
+  documented developer surface at this time; this profile captures its identity
+  and public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/happy-world/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Dining
+- Restaurants
+- Payments
+- Rewards
+- Loyalty
+- Cashback
+- Mobile App
+- Fintech
+- Saudi Arabia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,15 @@ maintainers:
 common:
 - type: Website
   url: https://getspice.com
+- type: PrivacyPolicy
+  url: https://getspice.com/privacy-policy
+- type: TermsOfService
+  url: https://getspice.com/terms-and-conditions
+- type: SignUp
+  name: Get the SPICE app
+  url: https://spice.go.link/3TFBS
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
